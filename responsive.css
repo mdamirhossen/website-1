@@ -1,0 +1,235 @@
+ 
+ /**************  Header Menu Section CSS  ****************/
+
+@media ( min-width:992px ) {
+    
+    .defualtNav li ul {
+        display: block;
+        border: none;
+        width: 240px;
+        padding: 10px 0;
+        top:140% !important;
+        transition:0.3s;
+        -webkit-transition:0.3s;
+        -moz-transition:0.3s;
+        -ms-transition:0.3s;
+        -o-transition:0.3s;
+        opacity:0;
+        visibility: hidden;
+        box-shadow: 0px 0px 11px -3px black;
+    }
+    .defualtNav li:hover ul {
+        top:100% !important;
+        opacity: 1;
+        visibility:visible;
+    }
+} 
+
+
+/*********** Main Css width 1200px ************/
+
+@media (max-width:1200px) {
+    .container{
+        max-width: 95% !important;
+    }
+    .dBlockRow {
+        display: inline-block;
+    }
+    .CommonCol {
+        float: left;
+        width: 50%;
+    }
+}
+
+
+/*********** Main Css width 1140px ************/
+
+@media (max-width:1140px) {
+    .bannerTxtWrp {
+        margin-top: 100px;
+    }
+    .testTxtWrp {
+        width: 93%;
+        margin-top: 140px;
+    }
+    section#testSection {
+        padding: 20px 0;
+    }
+    .priceWrp {
+        width: 35%;
+    }
+
+
+    .psychologistsText {
+        margin-top: 115px;
+    }
+
+
+    .questionTitle {
+        text-align: center;
+    }
+    .questionWrp {
+        width: 70%;
+    }
+}
+
+
+/*********** Main Css width 992px ************/
+
+@media (max-width:992px) {
+
+    section{
+        padding:20px 0;
+    }
+    .container{
+        max-width:95% !important;
+    }
+    /**************  Header Menu Section CSS  ****************/
+    .headerLogo{
+        width:18% !important;
+    }
+    .headDownBtn {
+        margin-top: 10px;
+    }
+    .dropdown {
+        margin-left: 13px;
+    }
+    .defualtNav ul {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .defualtNav {
+        margin-top: 30px;
+    }
+    .defualtNav li {
+        margin-top: 10px;
+    }
+    /**************  Banner Section CSS  ****************/
+    .bannerTxtWrp {
+        width: 75%;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    .subBannerItems {
+        justify-content: space-between;
+        padding: 22px 50px;
+    }
+
+
+    .RatBlockRow {
+        display: inline-block;
+    }
+    .RatCol {
+        float: left;
+        width: 50%;
+        margin-top: 20px;
+    }
+    .WorCol {
+        transform: translate(-50%);
+        margin-left: 50%;
+    }
+
+    .sliderWrp {
+        width: 59%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+
+    .testTxtWrp {
+        width: 60%;
+        margin-top: 30px;
+    }
+    .testImg {
+        margin-bottom: -70px;
+    }
+
+
+    section#priceSection {
+        padding: 35px 0;
+    }
+
+
+    .psychologistsImag {
+        width: 80%;
+        margin: auto;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+
+}
+
+
+/*********** Main Css width 768px ************/
+
+@media (max-width:768px) {
+    .container{
+        max-width:100% !important;
+    }
+    .bannerTitle h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .ratWor {
+        float: none;
+        width: 80%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .workHeadTitle {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .ratWor:first-child {
+        margin-top: 7px;
+    }
+    .ratWor:last-child {
+        transform: translate(0%);
+        margin: auto;
+        margin-top: 27px;
+    }
+    .workBtn {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .workItemWrp{
+        height: auto;
+    }
+
+    .priceWrp {
+        width: 43%;
+    }
+}
+
+/*********** Main Css width 600px ************/
+
+@media (max-width:600px) {
+
+    .bannerTxtWrp {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+
+    .subBannerItems {
+        display: block !important;
+        padding: 20px 0px;
+        width: 95%;
+    }
+    .subBannerItem {
+        margin-top: 5px;
+    }
+    .subBannerItem:first-child {
+        margin-left: -10px;
+    }
+
+    .testTxtWrp {
+        margin: auto;
+    }
+    .bannerTitle h2 {
+        margin: 0;
+    }
+}
